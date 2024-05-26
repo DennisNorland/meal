@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+
+.container{
+    float: left;
+    margin-left: 50px;
+}
+
+.plug{
+    float: right;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+
+nav{
+
+    width: 85%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 8vw;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15); 
+    z-index: 10;
+}
+
+nav h1{
+    color: green;
+    cursor: pointer;
+}
+
+nav .navigation ul li{
+list-style: none;
+margin-left: 30px;
+}
+
+nav .navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+
+nav .navigation ul li a{
+    text-decoration: none;
+    color: rgb(21,  21, 100);
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+nav .navigation ul li a:hover{
+    color: yellow;
+}
+
+.food{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../FOOD/IMG/showcase.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+}
+
+.food h1{
+    font-size: 100px;
+    color: orangered;
+}
+
+ .button_1{
+    width: 100px;
+    height: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    background-color: orangered;
+}
+
+.about{
+   width: 100%;
+   height: auto;
+    background-color:lightgrey;
+    align-items: center;
+}
+
+
+#up{
+    display: flex;
+    margin: 0 20%;
+    position: relative;
+    bottom: 80px;
+}
+
+.ano{
+    position: relative;
+    bottom: 300px;
+    left: 200px;
+}
+
+.php{
+    display: flex;
+    padding: 8vw;
+}
+.us{
+    padding-left: 8vw;
+}
+
+.time{
+    width: 100%;
+    height: auto;
+    padding-top: 1px;
+    background-image: url(../FOOD/IMG/background.jpeg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+}
+
+.head h1{
+    color: #fff;
+    padding-top: 1px;
+    font-size: 50px;
+}
+
+.head p{
+color:green;
+font-weight: bold;
+}
+
+.button_2{
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    background-color: orangered;
+}
+
+.flower{
+    background-color: gray;
+    width: 100%;
+    height: auto;
+    
+}
+
+.fruid{
+    padding-top: 10px;
+text-align: center;
+}
+
+.fruid h1{
+    color: #fff;
+    font-size: 50px;
+}
+
+.fruid p{
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+ .pilt{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 8vw 1vw 8vw;
+   
+}
+
+.btn{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.put{
+    text-align: center;
+    background-image: url(../FOOD/IMG/background\ 2.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.put h1{
+font-size: 50px;
+}
+
+.jum{
+    width: 100%;
+    height: auto;
+    background-color: antiquewhite;
+    padding-top: 5px;
+}
+
+.jpj{
+    text-align: center;
+}
+
+.jpj h1{
+    font-size: 50px;
+}
+
+.three{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.sub img{
+    border-radius: 6px;
+}
+
+.sub h2{
+    color: orangered;
+    cursor: pointer;
+}
+
+#glass{
+    background-color: bisque;
+    width: 100%;
+    height: auto;
+    padding: 1px;
+}
+
+.hkboy{
+    text-align: center;
+}
+
+.hkboy h1{
+    font-size: 50px;
+}
+
+.details{
+  text-align: center;
+}
+
+.details input{
+    height: 30px;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.details textarea{
+    height: 30px;
+    width: 80%;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+footer{
+    background-image:url(../FOOD/IMG/background\ 2.jpeg);
+    background-size: cover;
+}
+
+#thanks{
+    display: flex;
+    color: #fff;
+    justify-content: space-evenly;
+}
+
+.finish h4{
+    color: orangered;
+}
+
+footer h5{
+    text-align: center;
+    color: orangered;
+    letter-spacing: 1rem;
+    font-weight: bold;
+}
+ 
+@media screen and (min-width :800px){
+
+.container {
+    font-size: 30px;
+    font-weight: bold;
+}
+    
+.fa-brands {
+    font-size: 30px;
+}
+
+    nav h1{
+        font-size: 50px;
+    }
+
+    nav .navigation ul{
+        font-size: 45px;
+    }
+
+.showcase{
+    width: 100%;
+}
+
+.button_1{
+    font-size: 20px;
+    padding: 5px;
+    margin: 35px;
+}
+.about{
+    font-size: 25px;
+}
+
+.time{
+    font-size: 25px;
+}
+
+.flower{
+    font-size: 25px;
+}
+
+.put{
+    font-size: 25px;
+}
+
+.jum{
+    font-size: 25px;
+}
+
+#glass{
+    font-size: 25px;
+}
+.details{
+    font-size: 25px;
+}
+
+.button_2{
+    font-size: 25x;
+}
+
+footer{
+    font-size: 25px;
+}
+
+}
+
+@media screen and (max-width :500px){
+
+    .container {
+        font-size: 25px;
+        font-weight: bold;
+    }
+        
+    .fa-brands {
+        font-size: 20px;
+    }
+    nav{
+        width: 100%;
+    }
+        nav h1{
+            font-size: 50px;
+        }
+    
+        nav .navigation ul{
+            font-size: 45px;
+        }
+
+        .showcase{
+            width: 100%;
+        }
+
+        .food h1{
+            font-size: 50px;
+        }
+
+        .about{
+            width: 100%;
+        }
+
+        #up img{
+            width: 50%;
+            height: 50%;
+        }
+    }
+
+
